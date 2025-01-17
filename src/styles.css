@@ -66,12 +66,12 @@ header {
 
 .current-details {
   font-size: 18px;
-  color: #333;
+  color: #050505;
 }
 
 .current-temperature {
-  font-size: 90px;
-  color: #2a2a72; /* Deep blue for temperature */
+  font-size: 60px;
+  color: #16a6b3;
   text-align: right;
 }
 
