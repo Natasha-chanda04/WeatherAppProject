@@ -1,0 +1,82 @@
+/* Apply a background image */
+body {
+  background: url("https://asset.gecdesigns.com/img/wallpapers/aesthetic-purple-orange-beautiful-nature-desktop-wallpaper-sr10012413-1706503295947-cover.webp")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #5430a8;
+}
+
+.weather-app {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  border-bottom: 2px solid #e0e0ff;
+  padding-bottom: 20px;
+}
+
+.search-input {
+  background-color: #f5f5ff;
+  border: 2px solid #9370db;
+  font-size: 18px;
+  padding: 15px;
+  width: 70%;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.search-button {
+  font-size: 16px;
+  background-color: #c232a0;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #113d63; /* Darker purple on hover */
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.current-city {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.current-details {
+  font-size: 18px;
+  color: #333;
+}
+
+.current-temperature {
+  font-size: 90px;
+  color: #2a2a72; /* Deep blue for temperature */
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
